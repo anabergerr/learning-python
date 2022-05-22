@@ -15,3 +15,14 @@ print(guest_list)
 
 for guest in guest_list:
     print(message + guest)
+
+# add + 3 invited
+news_guests = ["Vitoria", "Sabrina", "Fernanda"]
+
+for guest in news_guests:
+    guest_list.append(guest)
+
+for guest in guest_list:
+    print(message + guest)
+
+print(guest_list)
