@@ -1,4 +1,7 @@
 # guest list
+from operator import ge
+
+
 guest_list = ["Jhon", "Ana", "Gabriel", "Carol", "Jake"]
 message = "you were invited "
 message_cancellation = "guest canceled: "
@@ -24,5 +27,19 @@ for guest in news_guests:
 
 for guest in guest_list:
     print(message + guest)
+
+print(guest_list)
+
+# deixando apenas dois convidados
+
+value = len(guest_list)
+# for guest in guest_list:
+
+for guest in range(value):
+    guest_deleted = guest_list.pop()
+    print("Sorry " + guest_deleted)
+    if(len(guest_list) == 2):
+        break
+
 
 print(guest_list)
