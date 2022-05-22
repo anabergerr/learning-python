@@ -30,7 +30,7 @@ for guest in guest_list:
 
 print(guest_list)
 
-# deixando apenas dois convidados
+# deleting all but two
 
 value = len(guest_list)
 # for guest in guest_list:
@@ -41,5 +41,9 @@ for guest in range(value):
     if(len(guest_list) == 2):
         break
 
+# deleted all
+
+del guest_list[0]
+del guest_list[0]
 
 print(guest_list)
