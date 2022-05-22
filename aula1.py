@@ -22,6 +22,12 @@ fav_number = 13
 
 message = "Happy " + str(fav_number) + "rd Birthday"
 
-print(message)
+# print(message)
 
 # create list
+
+names_friends = ["Bob", "John", "Ana"]
+
+# acess items
+
+print(names_friends[0])
